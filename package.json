@@ -6,17 +6,18 @@
   "scripts": {
     "test": "mocha server/**/*.test.js",
     "test-watch": "nodemon --exec \"npm test\"",
-    "start":"node server/server.js"
+    "start": "node server/server.js"
   },
   "engines": {
-    "node":"6.2.2"
+    "node": "6.2.2"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.17.2",
-    "mongodb": "^2.2.30",
     "express": "^4.15.3",
+    "lodash": "^4.17.4",
+    "mongodb": "^2.2.30",
     "mongoose": "^4.11.2"
   },
   "devDependencies": {
